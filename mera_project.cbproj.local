@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2014.07.02 18:32:27.767,=C:\Users\Sergey\Documents\RAD Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2014.07.02 18:32:27.813,=C:\Users\Sergey\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2014.07.02 18:36:30.084,C:\Users\Sergey\Documents\GitHub\mera_project\main.cpp=C:\Users\Sergey\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2014.07.02 18:36:30.084,C:\Users\Sergey\Documents\GitHub\mera_project\main.h=C:\Users\Sergey\Documents\RAD Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2014.07.02 18:36:30.084,C:\Users\Sergey\Documents\GitHub\mera_project\main.dfm=C:\Users\Sergey\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014.07.02 18:36:41.130,C:\Users\Sergey\Documents\GitHub\mera_project\mera_project.cbproj=C:\Users\Sergey\Documents\RAD Studio\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
