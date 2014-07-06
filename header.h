@@ -32,25 +32,26 @@ class Client
 {
 	private:
 		WSAData wsa;
-		SOCKET Connect;
+
 		SOCKET Listen;
-		SOCKADDR_IN Client;
+
 		u_short port;
 	public:
+        SOCKADDR_IN Client;
+		SOCKET Connect;
 		vector<AirName> airList;
 		Client();
 		void getAirList();
 };
 
-class Request
+class Request : public Client
 {
 	private:
-		char id[4];
-		int date;
+		AirName data;
 		vector<flightData> flightList;
 	public:
-		Requset();
-		void sendRequset();
+		Request();
+		void sendRequest();
 		void getFlightList();
 		void printFlightList();
 };

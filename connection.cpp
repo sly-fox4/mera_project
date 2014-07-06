@@ -25,11 +25,36 @@ void Client::getAirList()
 			while(recv(Connect,(char*) &oneAir, sizeof(AirName), 0))
 			{
 				airList.push_back(oneAir);
-				Form1->ComboBox1->Items->Add(airList[i].name);
+				Form1->ComboBox1->Items->Add(airList[i].id);
 				i++;
 			}
 			break;
 		}
 	}
+}
 
+Request::Request()
+{
+	strcpy(data.id,AnsiString(Form1->ComboBox1->Text).c_str());
+}
+
+void Request::sendRequest()
+{
+	while(1) // !!!
+	{
+		int i=0;
+		flightData oneFlight;
+		if(connect(Connect, (SOCKADDR*)&Client, sizeof(Client)))
+		{
+			send(Connect,(char*) &data, sizeof(AirName), 0);
+
+			while(recv(Connect,(char*) &oneFlight, sizeof(flightData), 0))
+			{
+				flightList.push_back(oneFlight);
+				Form1->Label1->Caption = Form1->Label1->Caption + flightList[i].idFrom;
+				i++;
+			}
+			break;
+		}
+	}
 }

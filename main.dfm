@@ -14,6 +14,13 @@ object Form1: TForm1
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 40
+    Top = 192
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
   object DateTimePicker1: TDateTimePicker
     Left = 401
     Top = 8
@@ -30,6 +37,7 @@ object Form1: TForm1
     Height = 25
     Caption = 'Button1'
     TabOrder = 1
+    OnClick = Button1Click
   end
   object ComboBox1: TComboBox
     Left = 8
