@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.084,C:\Users\Sergey\Documents\GitHub\mera_project\main.dfm=C:\Users\Sergey\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.084,C:\Users\Sergey\Documents\RAD Studio\Projects\Unit1.cpp=C:\Users\Sergey\Documents\GitHub\mera_project\main.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.813,=C:\Users\Sergey\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.315,C:\Users\Sergey\Documents\GitHub\mera_project\header.h=C:\Users\Sergey\Documents\GitHub\mera_project\File1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.916,C:\Users\Sergey\Documents\GitHub\mera_project\connection.cpp=C:\Users\Sergey\Documents\GitHub\mera_project\File1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.130,C:\Users\Sergey\Documents\GitHub\mera_project\mera_project.cbproj=C:\Users\Sergey\Documents\RAD Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.084,C:\Users\Sergey\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Sergey\Documents\GitHub\mera_project\main.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.130,C:\Users\Sergey\Documents\RAD Studio\Projects\Project1.cbproj=C:\Users\Sergey\Documents\GitHub\mera_project\mera_project.cbproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.767,=C:\Users\Sergey\Documents\RAD Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.084,C:\Users\Sergey\Documents\GitHub\mera_project\main.h=C:\Users\Sergey\Documents\RAD Studio\Projects\Unit1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.089,=C:\Users\Sergey\Documents\GitHub\mera_project\File1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.084,C:\Users\Sergey\Documents\GitHub\mera_project\main.cpp=C:\Users\Sergey\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.916,C:\Users\Sergey\Documents\GitHub\mera_project\File1.cpp=C:\Users\Sergey\Documents\GitHub\mera_project\connection.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.315,C:\Users\Sergey\Documents\GitHub\mera_project\File1.h=C:\Users\Sergey\Documents\GitHub\mera_project\header.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.084,C:\Users\Sergey\Documents\RAD Studio\Projects\Unit1.h=C:\Users\Sergey\Documents\GitHub\mera_project\main.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.748,=C:\Users\Sergey\Documents\GitHub\mera_project\File1.h</Transaction>
   </Transactions>
 </BorlandProject>

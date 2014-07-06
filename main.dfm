@@ -45,6 +45,6 @@ object Form1: TForm1
     Width = 145
     Height = 21
     TabOrder = 2
-    Text = 'Select Airport'
+    Text = 'Select'
   end
 end

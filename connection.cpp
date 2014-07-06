@@ -44,6 +44,7 @@ void Request::sendRequest()
 	{
 		int i=0;
 		flightData oneFlight;
+		//Connect = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 		if(connect(Connect, (SOCKADDR*)&Client, sizeof(Client)))
 		{
 			send(Connect,(char*) &data, sizeof(AirName), 0);
