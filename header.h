@@ -12,6 +12,11 @@
 using namespace std;
 //---------------------------------------------------------------------------
 
+struct AirName         //структура для работы со списком Аэропортов
+{
+	char id[4];
+	char name[30];
+};
 
 struct flightData       //Структура одного Полета
 {
@@ -32,6 +37,7 @@ class Client
 		SOCKADDR_IN Client;
 		u_short port;
 	public:
+		vector<AirName> airList;
 		Client();
 		void getAirList();
 };
