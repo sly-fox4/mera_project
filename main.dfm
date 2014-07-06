@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 268
-  ClientWidth = 606
+  ClientHeight = 393
+  ClientWidth = 742
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,13 +14,6 @@ object Form1: TForm1
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
-  object Label1: TLabel
-    Left = 40
-    Top = 192
-    Width = 31
-    Height = 13
-    Caption = 'Label1'
-  end
   object DateTimePicker1: TDateTimePicker
     Left = 401
     Top = 8
@@ -31,8 +24,8 @@ object Form1: TForm1
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 523
-    Top = 235
+    Left = 593
+    Top = 8
     Width = 75
     Height = 25
     Caption = 'Button1'
@@ -46,5 +39,16 @@ object Form1: TForm1
     Height = 21
     TabOrder = 2
     Text = 'Select'
+  end
+  object StringGrid1: TStringGrid
+    Left = 8
+    Top = 96
+    Width = 609
+    Height = 289
+    ColCount = 6
+    DefaultColWidth = 100
+    RowCount = 1
+    FixedRows = 0
+    TabOrder = 3
   end
 end

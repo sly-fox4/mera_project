@@ -52,7 +52,14 @@ void Request::sendRequest()
 			while(recv(Connect,(char*) &oneFlight, sizeof(flightData), 0))
 			{
 				flightList.push_back(oneFlight);
-				Form1->Label1->Caption = Form1->Label1->Caption + flightList[i].idFrom;
+				Form1->StringGrid1->RowCount++;
+				Form1->StringGrid1->Cells[0][i+1]= flightList[i].idFrom;
+				Form1->StringGrid1->Cells[1][i+1]= flightList[i].nameFrom;
+				Form1->StringGrid1->Cells[2][i+1]= flightList[i].idTo;
+				Form1->StringGrid1->Cells[3][i+1]= flightList[i].nameTo;
+				Form1->StringGrid1->Cells[4][i+1]= flightList[i].timeFrom;
+				Form1->StringGrid1->Cells[5][i+1]= flightList[i].timeTo;
+				//=Form1->Memo1->Text + flightList[i].nameTo;
 				i++;
 			}
 			break;

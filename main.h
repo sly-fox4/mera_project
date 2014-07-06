@@ -7,6 +7,7 @@
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
 #include <Vcl.ComCtrls.hpp>
+#include <Vcl.Grids.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
@@ -14,7 +15,7 @@ __published:	// IDE-managed Components
 	TDateTimePicker *DateTimePicker1;
 	TButton *Button1;
 	TComboBox *ComboBox1;
-	TLabel *Label1;
+	TStringGrid *StringGrid1;
 	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 private:	// User declarations
