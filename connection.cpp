@@ -19,16 +19,15 @@ void Client::getAirList()
 	AirName oneAir;
 	while(1) // !!!
 	{
+		int i=0;
 		if(connect(Connect, (SOCKADDR*)&Client, sizeof(Client)))
 		{
-			//cout << "Complite connect to server." << endl;
-			//send(Connect, "Message from client", MAX_PATH, 0);
-			recv(Connect,(char*) &oneAir, sizeof(AirName), 0);
-			airList.push_back(oneAir);
-			Form1->ComboBox1->Items->Add(airList[0].id);
-			//recv(Connect,(char*) &oneAir, sizeof(AirName), 0);
-			//airList.push_back(oneAir);
-			//Form1->ComboBox1->Items->Add(airList[1].id);
+			while(recv(Connect,(char*) &oneAir, sizeof(AirName), 0))
+			{
+				airList.push_back(oneAir);
+				Form1->ComboBox1->Items->Add(airList[i].name);
+				i++;
+			}
 			break;
 		}
 	}
