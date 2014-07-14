@@ -15,9 +15,9 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object DateTimePicker1: TDateTimePicker
-    Left = 393
+    Left = 401
     Top = 8
-    Width = 88
+    Width = 186
     Height = 21
     Date = 41822.934274861110000000
     Time = 41822.934274861110000000
@@ -35,11 +35,10 @@ object Form1: TForm1
   object ComboBox1: TComboBox
     Left = 8
     Top = 8
-    Width = 170
+    Width = 145
     Height = 21
     TabOrder = 2
-    Text = 'Select From'
-    OnChange = ComboBox1Change
+    Text = 'Select'
   end
   object StringGrid1: TStringGrid
     Left = 8
@@ -51,14 +50,5 @@ object Form1: TForm1
     RowCount = 1
     FixedRows = 0
     TabOrder = 3
-  end
-  object ComboBox2: TComboBox
-    Left = 199
-    Top = 8
-    Width = 170
-    Height = 21
-    TabOrder = 4
-    Text = 'Select To'
-    OnChange = ComboBox2Change
   end
 end

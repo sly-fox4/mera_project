@@ -26,7 +26,6 @@ void Client::getAirList()
 			{
 				airList.push_back(oneAir);
 				Form1->ComboBox1->Items->Add(airList[i].id);
-				Form1->ComboBox2->Items->Add(airList[i].id);
 				i++;
 			}
 			break;
@@ -37,7 +36,6 @@ void Client::getAirList()
 Request::Request()
 {
 	strcpy(data.id,AnsiString(Form1->ComboBox1->Text).c_str());
-	//strcpy(data.date,AnsiString(Form1->DateTimePicker1->Date.FormatString("ddmmyy")).c_str());
 }
 
 void Request::sendRequest()
@@ -49,7 +47,6 @@ void Request::sendRequest()
 		//Connect = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 		if(connect(Connect, (SOCKADDR*)&Client, sizeof(Client)))
 		{
-			//if(Form1->ComboBox1->Tag == 1 && Form1->ComboBox2->Tag == 0 )
 			send(Connect,(char*) &data, sizeof(AirName), 0);
 
 			while(recv(Connect,(char*) &oneFlight, sizeof(flightData), 0))

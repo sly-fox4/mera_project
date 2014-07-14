@@ -25,21 +25,10 @@ void __fastcall TForm1::FormCreate(TObject *Sender)
 
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
-	Form1->StringGrid1->RowCount-=Form1->StringGrid1->RowCount;
 	Request r1;
 	r1.sendRequest();
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::ComboBox1Change(TObject *Sender)
-{
-	ComboBox1->Tag=1;
-}
-//---------------------------------------------------------------------------
-
-void __fastcall TForm1::ComboBox2Change(TObject *Sender)
-{
-	ComboBox2->Tag=1;
-}
 //---------------------------------------------------------------------------
 
